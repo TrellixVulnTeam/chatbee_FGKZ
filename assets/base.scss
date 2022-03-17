@@ -1,0 +1,128 @@
+body, html, div, h1,h2,h3,h4,p,span {
+  font-family: 'Prompt';
+}
+
+.gradmain {
+  background: rgb(255,197,147);
+  background: linear-gradient(324deg, rgba(255,197,147,1) 0%, rgba(239,124,125,1) 100%);
+}
+
+.weloading-enter-active {
+  transition: all 1s ease;
+}
+.weloading-leave-active {
+  transition: all 1s cubic-bezier(1, 0.5, 0.8, 1);
+}
+.weloading-enter {
+  opacity: 0;
+  .we-loading {
+    height: 100%;
+  }
+}
+.weloading-leave-to {
+  opacity: 0;
+  .we-loading {
+    height: 100%;
+  }
+}
+
+.fadeintro-inonly-enter-active {
+  transition: all 1s ease;
+}
+.fadeintro-inonly-leave-active {
+  transition: all 0s;
+}
+.fadeintro-inonly-enter {
+  transform: translateY(-30px);
+  opacity: 0;
+}
+.fadeintro-inonly-leave-to {
+  opacity: 0;
+}
+
+.fadeintro-enter-active, .fadeintro-leave-active {
+  transition: all 0.2s ease;
+}
+.fadeintro-enter, .fadeintro-leave-to {
+  transform: translateY(-15px);
+  opacity: 0;
+}
+
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: all 0.2s ease;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+}
+
+.middle-item {
+  margin: 0 auto;
+  text-align: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -o-justify-content: center;
+  justify-content: center;
+  -webkit-display: flex;
+  -moz-display: flex;
+  -o-display: flex;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -o-align-items: center;
+  align-items: center;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.ec-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.t1 {
+  -webkit-transition: all 0.1s ease-out;
+  -moz-transition: all 0.1s ease-out;
+  -o-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
+}
+.t2 {
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.t3 {
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.t4 {
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+.t6 {
+  -webkit-transition: all 0.6s ease-out;
+  -moz-transition: all 0.6s ease-out;
+  -o-transition: all 0.6s ease-out;
+  transition: all 0.6s ease-out;
+}
+.t8 {
+  -webkit-transition: all 0.8s ease-out;
+  -moz-transition: all 0.8s ease-out;
+  -o-transition: all 0.8s ease-out;
+  transition: all 0.8s ease-out;
+}

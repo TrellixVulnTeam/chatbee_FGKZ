@@ -1,0 +1,40 @@
+{
+  "name": "hearing-heart-web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "deploy": "firebase deploy --only hosting"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/firebase": "^8.0.0",
+    "axios": "^0.24.0",
+    "chart.js": "^3.7.0",
+    "core-js": "^3.15.1",
+    "express": "^4.17.2",
+    "firebase": "^9.2.0",
+    "install": "^0.13.0",
+    "net": "^1.0.2",
+    "npm": "^8.4.1",
+    "nuxt": "^2.15.7",
+    "omise": "^0.8.5",
+    "redirect-ssl": "^3.0.0",
+    "request": "^2.88.2",
+    "semantic-ui-vue": "^0.11.0",
+    "tiptap-vuetify": "^2.24.0",
+    "tls": "^0.0.1",
+    "vue-animejs": "^2.1.1",
+    "vue-chartjs": "^3.5.1",
+    "vue-lodash": "^2.1.2",
+    "vue-morris": "^1.1.0",
+    "vueditor": "^0.3.1",
+    "vuetify": "^2.5.5"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.12.1"
+  }
+}
